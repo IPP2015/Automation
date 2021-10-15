@@ -11,7 +11,8 @@ exports.config = {
     Playwright: {
       url: 'http://www.youtube.com',
       show: true,
-      browser: 'chromium'
+      browser: 'chromium',
+      waitForNavigation: "networkidle0"
     }
   },
   include: {
