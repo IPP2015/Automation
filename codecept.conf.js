@@ -12,7 +12,7 @@ exports.config = {
       url: 'http://www.youtube.com',
       show: true,
       browser: 'chromium',
-      waitForNavigation: "networkidle0"
+      waitForNavigation: "networkidle0",
     }
   },
   include: {
