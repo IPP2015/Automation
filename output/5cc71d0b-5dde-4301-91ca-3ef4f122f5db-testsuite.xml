@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634523679998' stop='1634523684984'>
+    <name>test:</name>
+    <title>test:</title>
+    <test-cases>
+        <test-case start='1634523679999' status='passed' stop='1634523684861'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634523680809' status='passed' stop='1634523684861'>
+                    <name>I am on page "https://google.com"</name>
+                    <title>I am on page "https://google.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

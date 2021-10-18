@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634522161979' stop='1634522163289'>
+    <name>test:</name>
+    <title>test:</title>
+    <test-cases>
+        <test-case start='1634522161980' status='failed' stop='1634522162463'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634522162431' status='failed' stop='1634522162462'>
+                    <name>I am on page "www.youtube.com"</name>
+                    <title>I am on page "www.youtube.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='385f7823-f222-4037-af16-ddce68de66cb-attachment.png' type='image/png' size='20318'/>
+            </attachments>
+            <failure>
+                <message>page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.google.comwww.youtube.com/
+                =========================== logs ===========================
+                navigating to "http://www.google.comwww.youtube.com/", waiting until "networkidle"
+                ============================================================</message>
+                <stack-trace>page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.google.comwww.youtube.com/
+                =========================== logs ===========================
+                navigating to "http://www.google.comwww.youtube.com/", waiting until "networkidle"
+                ============================================================
+                    at Playwright.amOnPage (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\Playwright.js:729:21)
+                    at Step.run (E:\batch220\Automation\node_modules\codeceptjs\lib\step.js:66:47)
+                    at E:\batch220\Automation\node_modules\codeceptjs\lib\actor.js:116:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

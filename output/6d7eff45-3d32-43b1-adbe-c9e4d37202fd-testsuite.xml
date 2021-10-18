@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634521400631' stop='1634521434742'>
+    <name>googlesearch:</name>
+    <title>googlesearch:</title>
+    <test-cases>
+        <test-case start='1634521401630' status='passed' stop='1634521417163'>
+            <name>youtube-search</name>
+            <title>youtube-search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634521402232' status='passed' stop='1634521409487'>
+                    <name>I am on page </name>
+                    <title>I am on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634521409488' status='passed' stop='1634521414183'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634521414183' status='passed' stop='1634521417162'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634521417308' status='passed' stop='1634521434560'>
+            <name>youtube-search2</name>
+            <title>youtube-search2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634521417774' status='passed' stop='1634521424877'>
+                    <name>I am on page </name>
+                    <title>I am on page </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634521424877' status='passed' stop='1634521430084'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1634521430084' status='passed' stop='1634521434560'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
