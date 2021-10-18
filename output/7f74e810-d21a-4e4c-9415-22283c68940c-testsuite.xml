@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634531538095' stop='1634531566032'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1634531538838' status='failed' stop='1634531554195'>
+            <name>page @test</name>
+            <title>page @test</title>
+            <labels>
+                <label name='tag' value='@test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1634531539456' status='passed' stop='1634531549202'>
+                    <name>Given I have a defined step </name>
+                    <title>Given I have a defined step </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634531539457' status='passed' stop='1634531549201'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page ' source='a2748322-6fc1-483f-a420-5b6781b8b367-attachment.png' type='image/png' size='1830358'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634531549203' status='failed' stop='1634531554195'>
+                    <name>When i see youtube </name>
+                    <title>When i see youtube </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634531549204' status='failed' stop='1634531554193'>
+                            <name>I see {"iconName_":"yt-logo-updated"}</name>
+                            <title>I see {"iconName_":"yt-logo-updated"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I see {"iconName_":"yt-logo-updated"}' source='a9225334-52d9-4798-9e3e-355e4c3c050b-attachment.png' type='image/png' size='5164221'/>
+                <attachment title='Screenshot of step I wait 2' source='e43082c5-8e18-473f-9be3-b79b33d94260-attachment.png' type='image/png' size='7043718'/>
+                <attachment title='Last Seen Screenshot' source='4b00f517-fb3c-42d4-a256-23567a9ff440-attachment.png' type='image/png' size='491063'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

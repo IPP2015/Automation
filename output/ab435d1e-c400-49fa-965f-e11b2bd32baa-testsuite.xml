@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634530500193' stop='1634530518371'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1634530500863' status='passed' stop='1634530518237'>
+            <name>page @test</name>
+            <title>page @test</title>
+            <labels>
+                <label name='tag' value='@test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1634530501698' status='passed' stop='1634530512517'>
+                    <name>Given I have a defined step </name>
+                    <title>Given I have a defined step </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634530501698' status='passed' stop='1634530512516'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='50a20917-5fcf-4cb1-badd-96f4542fb05e-attachment.png' type='image/png' size='1417935'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634530512517' status='passed' stop='1634530518237'>
+                    <name>Then oke </name>
+                    <title>Then oke </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634530512517' status='passed' stop='1634530518235'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='1f5f5e5e-7eb6-44bd-a62b-a9a3156ff229-attachment.png' type='image/png' size='3554579'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

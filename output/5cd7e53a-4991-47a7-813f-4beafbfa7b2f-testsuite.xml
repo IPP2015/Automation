@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634530101254' stop='1634530138940'>
+    <name>googlesearch:</name>
+    <title>googlesearch:</title>
+    <test-cases>
+        <test-case start='1634530101255' status='passed' stop='1634530119027'>
+            <name>youtube-search</name>
+            <title>youtube-search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634530101738' status='passed' stop='1634530108562'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='47b622df-f6ca-4c84-9590-fd231b75e079-attachment.png' type='image/png' size='1437448'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634530108562' status='passed' stop='1634530114476'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "Search", "bmht"' source='758ff5a0-f87f-4430-86f1-cd1d7ee69704-attachment.png' type='image/png' size='4338967'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634530114476' status='passed' stop='1634530119027'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Search"' source='aede82ad-927b-4f47-94aa-b89e713ad983-attachment.png' type='image/png' size='5728571'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1634530119139' status='passed' stop='1634530138821'>
+            <name>youtube-search2</name>
+            <title>youtube-search2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1634530119746' status='passed' stop='1634530129755'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='d750a15a-6d33-43c2-819d-fea4ade86c4e-attachment.png' type='image/png' size='1129403'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634530129755' status='passed' stop='1634530136022'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "Search", "bmht"' source='eec7725b-c22c-449f-8919-2547cef79618-attachment.png' type='image/png' size='3218483'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634530136023' status='passed' stop='1634530138820'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Search"' source='e48f0d89-d2f6-401c-aee6-d98e87cc32b3-attachment.png' type='image/png' size='169569'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

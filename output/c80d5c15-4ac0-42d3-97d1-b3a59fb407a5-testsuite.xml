@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634531699381' stop='1634531721567'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1634531699983' status='passed' stop='1634531721428'>
+            <name>page @test</name>
+            <title>page @test</title>
+            <labels>
+                <label name='tag' value='@test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1634531700734' status='passed' stop='1634531708428'>
+                    <name>Given I have a defined step </name>
+                    <title>Given I have a defined step </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634531700734' status='passed' stop='1634531708428'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page ' source='52dae9c0-dc66-4eb8-ae05-b5f466e2a753-attachment.png' type='image/png' size='1817355'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634531708428' status='passed' stop='1634531712635'>
+                    <name>When i see youtube </name>
+                    <title>When i see youtube </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634531708428' status='passed' stop='1634531712635'>
+                            <name>I see "Home"</name>
+                            <title>I see "Home"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Home"' source='9a02ec5c-01f5-4c8e-8663-93e0f4ae5ae2-attachment.png' type='image/png' size='4378992'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634531712635' status='passed' stop='1634531721428'>
+                    <name>Then oke </name>
+                    <title>Then oke </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634531712635' status='passed' stop='1634531721428'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='18d5d482-6ade-4f7a-8762-45462ab9c516-attachment.png' type='image/png' size='6848627'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

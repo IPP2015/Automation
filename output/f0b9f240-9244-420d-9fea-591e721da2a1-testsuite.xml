@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634530731033' stop='1634530740131'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1634530731584' status='failed' stop='1634530739222'>
+            <name>page @test</name>
+            <title>page @test</title>
+            <labels>
+                <label name='tag' value='@test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1634530732223' status='failed' stop='1634530739222'>
+                    <name>Given I have a defined step </name>
+                    <title>Given I have a defined step </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634530732224' status='passed' stop='1634530739220'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='1ad66bfa-c15f-433b-8e9f-b2287c19fba2-attachment.png' type='image/png' size='1290512'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='12172308-e42a-49ec-ac79-868b726d9320-attachment.png' type='image/png' size='425584'/>
+            </attachments>
+            <failure>
+                <message>logo is not defined</message>
+                <stack-trace>ReferenceError: logo is not defined
+                    at E:\batch220\Automation\step_definitions\steps.js:9:9
+                    at runSteps (E:\batch220\Automation\node_modules\codeceptjs\lib\interfaces\gherkin.js:62:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
