@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634801028168' stop='1634801053866'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1634801028943' status='passed' stop='1634801053681'>
+            <name>page @test</name>
+            <title>page @test</title>
+            <labels>
+                <label name='tag' value='@test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1634801029581' status='passed' stop='1634801039489'>
+                    <name>Given I have a defined step </name>
+                    <title>Given I have a defined step </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634801029582' status='passed' stop='1634801039488'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page ' source='6cfcadfe-19ca-485a-b057-091766bc142c-attachment.png' type='image/png' size='2508243'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634801039489' status='passed' stop='1634801044365'>
+                    <name>When i see youtube </name>
+                    <title>When i see youtube </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634801039489' status='passed' stop='1634801044364'>
+                            <name>I see element {"id":"endpoint"}</name>
+                            <title>I see element {"id":"endpoint"}</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element {"id":"endpoint"}' source='81f2a55c-7352-448a-ad74-2595eb7dc047-attachment.png' type='image/png' size='4908614'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1634801044366' status='passed' stop='1634801053681'>
+                    <name>Then oke </name>
+                    <title>Then oke </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1634801044366' status='passed' stop='1634801053680'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='a0679555-f45c-4b7a-ac97-52f7d23ac598-attachment.png' type='image/png' size='7333956'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
