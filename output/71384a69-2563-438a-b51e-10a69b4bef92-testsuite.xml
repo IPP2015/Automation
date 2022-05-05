@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1651729790291' stop='1651729815171'>
+    <name>googlesearch:</name>
+    <title>googlesearch:</title>
+    <test-cases>
+        <test-case start='1651729791066' status='failed' stop='1651729802690'>
+            <name>youtube-search</name>
+            <title>youtube-search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1651729791917' status='passed' stop='1651729797861'>
+                    <name>I am on page "/youtube"</name>
+                    <title>I am on page "/youtube"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/youtube"' source='f68053c2-6986-440d-a84a-4ba597b6efcd-attachment.png' type='image/png' size='51418'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1651729797863' status='failed' stop='1651729802688'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I fill field "Search", "bmht"' source='d7925374-7856-4920-aeaf-a6e873c0e97e-attachment.png' type='image/png' size='51418'/>
+                <attachment title='Last Seen Screenshot' source='c43794ff-84fd-4bc9-9405-a30e3a6f7eb8-attachment.png' type='image/png' size='51418'/>
+            </attachments>
+            <failure>
+                <message>Field "Search" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "Search" was not found by text|CSS|XPath
+                    at new ElementNotFound (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\Playwright.js:2642:11)
+                    at Playwright.fillField (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\Playwright.js:1316:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1651729803189' status='failed' stop='1651729814836'>
+            <name>youtube-search2</name>
+            <title>youtube-search2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1651729804274' status='passed' stop='1651729809922'>
+                    <name>I am on page "/youtube"</name>
+                    <title>I am on page "/youtube"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1651729809923' status='failed' stop='1651729814834'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f66cf64f-5aa6-4c38-8ba3-6b515fdddda2-attachment.png' type='image/png' size='51418'/>
+            </attachments>
+            <failure>
+                <message>Field "Search" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Field "Search" was not found by text|CSS|XPath
+                    at new ElementNotFound (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\Playwright.js:2642:11)
+                    at Playwright.fillField (E:\batch220\Automation\node_modules\codeceptjs\lib\helper\Playwright.js:1316:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
