@@ -31,12 +31,13 @@ exports.config = {
       enabled: true
     },
     allure: {
-      enabled: true
+      enabled: true,
+      outputDir: "./output/allure-results"
     },
     stepByStepReport: {
       enabled: true,
       fullPageScreenshots: true,
-      deleteSuccessful: false,
+      deleteSuccessful: true,
       screenshotsForAllureReport: true
     }
   },

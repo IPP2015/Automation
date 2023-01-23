@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674451855450' stop='1674451870377'>
+    <name>googlesearch:</name>
+    <title>googlesearch:</title>
+    <test-cases>
+        <test-case start='1674451855451' status='passed' stop='1674451870130'>
+            <name>youtube-search2</name>
+            <title>youtube-search2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1674451856427' status='passed' stop='1674451864601'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='a31e0ff9-ef1c-4d5c-a2a4-db3db38b5120-attachment.png' type='image/png' size='841723'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674451864601' status='passed' stop='1674451866350'>
+                    <name>I press key ["control","f"]</name>
+                    <title>I press key ["control","f"]</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I press key ["control","f"]' source='b98b4cc6-2993-48ca-bedd-90f5f81e7752-attachment.png' type='image/png' size='1029194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674451866351' status='passed' stop='1674451868217'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "Search", "bmht"' source='51eb0104-ca47-45f7-90e3-b45f4de66676-attachment.png' type='image/png' size='930127'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674451868217' status='passed' stop='1674451870130'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Search"' source='c6ebc8fa-9b0e-4b52-9013-73585ff5c4b2-attachment.png' type='image/png' size='1029722'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

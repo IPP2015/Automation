@@ -1,19 +1,19 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674448294251' stop='1674448307082'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674451870387' stop='1674451875348'>
     <name>test:</name>
     <title>test:</title>
     <test-cases>
-        <test-case start='1674448298362' status='passed' stop='1674448306897'>
+        <test-case start='1674451870388' status='passed' stop='1674451875198'>
             <name>test something</name>
             <title>test something</title>
             <labels/>
             <parameters/>
             <steps>
-                <step start='1674448299751' status='passed' stop='1674448306896'>
+                <step start='1674451871462' status='passed' stop='1674451875197'>
                     <name>I am on page "https://google.com"</name>
                     <title>I am on page "https://google.com"</title>
                     <attachments>
-                        <attachment title='Screenshot of step I am on page "https://google.com"' source='177e6ca4-7719-4a90-ae90-d1a4a8d799cf-attachment.png' type='image/png' size='54842'/>
+                        <attachment title='Screenshot of step I am on page "https://google.com"' source='342997bd-8f90-41b8-ac78-fb4925b6a4e3-attachment.png' type='image/png' size='52380'/>
                     </attachments>
                     <steps/>
                 </step>
