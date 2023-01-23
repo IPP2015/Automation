@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1674448331061' stop='1674448358271'>
+    <name>googlesearch:</name>
+    <title>googlesearch:</title>
+    <test-cases>
+        <test-case start='1674448332494' status='passed' stop='1674448357946'>
+            <name>youtube-search2</name>
+            <title>youtube-search2</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1674448333367' status='passed' stop='1674448344283'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I am on page "/"' source='afd99ba9-1f78-4b08-9ebc-487938cdb97f-attachment.png' type='image/png' size='27183'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674448344285' status='passed' stop='1674448350947'>
+                    <name>I press key ["control","f"]</name>
+                    <title>I press key ["control","f"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1674448350949' status='passed' stop='1674448355005'>
+                    <name>I fill field "Search", "bmht"</name>
+                    <title>I fill field "Search", "bmht"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I fill field "Search", "bmht"' source='1746b2ed-8e62-406e-9630-ececd6f7a658-attachment.png' type='image/png' size='1014749'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1674448355006' status='passed' stop='1674448357945'>
+                    <name>I click "Search"</name>
+                    <title>I click "Search"</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I click "Search"' source='5a3a9df8-9b79-4fbe-9ca0-c3bb1bd4e5f1-attachment.png' type='image/png' size='1015073'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
